@@ -18,6 +18,10 @@ const styles = StyleSheet.create({
         // bold === '700'
     },
 
+    subtitleCTA: {
+        textDecorationLine: 'underline',
+    },
+
     subtitle: {
         fontSize: 16,
         color: '#5c5e62'
@@ -30,6 +34,12 @@ const styles = StyleSheet.create({
         // cover - fill until parents, contain - normal
         position: 'absolute',
         // can see titles
+    },
+
+    buttonsContainer: {
+        position: 'absolute',
+        bottom: 50,
+        width: '100%'
     }
 });
 
